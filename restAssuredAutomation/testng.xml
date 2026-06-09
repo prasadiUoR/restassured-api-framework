@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/practise/QA/New folder/restassured-api-framework/restAssuredAutomation/src/test/java/tests">
+        <classes>
+            <class name="tests.BookingCRUDTest">
+                <methods>
+                    <include name="testCreateBooking"/>
+                    <include name="testGetBooking"/>
+                    <include name="testUpdateBooking"/>
+                    <include name="testDeleteBooking"/>
+                    <include name="testCreateBooking_InvalidData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
