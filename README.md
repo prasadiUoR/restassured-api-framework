@@ -93,11 +93,11 @@ Pipeline performs:
 ## Project Results
 - Test Execution Screenshot
   
-  ![Test Execution](saucedemoAutomation/screenshots/execution.png)
+  ![Test Execution](restAssuredAutomation/screenshots/test-execution.png)
 - Extent Report Screenshot
   
-  ![Test Execution](saucedemoAutomation/screenshots/extentReport1.png)
-  ![Test Execution](saucedemoAutomation/screenshots/extentReport2.png)
+  ![Test Execution](restAssuredAutomation/screenshots/test-execution-report.png)
+
 
 ---  
 ## Future Enhancements
