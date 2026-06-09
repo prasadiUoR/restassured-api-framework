@@ -81,14 +81,10 @@ mvn test -DsuiteXmlFile=testng.xml
 Tests are automatically executed on:
 
 - Push to main branch
-- Pull Requests
 
-Pipeline performs:
+CI/CD Status:  
+[![Java CI with Maven](https://github.com/prasadiUoR/restassured-api-framework/actions/workflows/maven.yml/badge.svg)](https://github.com/prasadiUoR/restassured-api-framework/actions/workflows/maven.yml)
 
-1. Checkout Repository
-2. Setup Java 17
-3. Execute Maven Tests
-4. Publish Test Artifacts
 ---
 ## Project Results
 - Test Execution Screenshot
